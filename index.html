@@ -1,13 +1,83 @@
+<!--* HTML5 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" dir="ltr">
   <head>
+    <!--* Set character encoding for the document -->
     <meta charset="UTF-8" />
+    <!--* Viewport for responsive web design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <!--* Meta Description -->
+    <meta
+      name="description"
+      content="In this Webpage you see a lot of animation and tricks..."
+    />
+    <!--* Meta Keywords -->
+    <meta name="keywords" content="story, react, ..." />
+    <!--* Meta Author Name -->
+    <meta name="author" content="Ali Bagheri" />
+
+    <!-- 
+      * Visualize and generate automatically our social meta tags with Meta Tags
+      * Facebook OG and Twitter Cards are, for any website, highly recommended. The other social media tags can be considered if you target a particular presence on those and want to ensure the display.
+     -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/page.html" />
+    <meta property="og:title" content="Content Title" />
+    <meta property="og:image" content="https://example.com/image.jpg" />
+    <meta property="og:description" content="Description Here" />
+    <meta property="og:site_name" content="Site Name" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@site_account" />
+    <meta name="twitter:creator" content="@individual_account" />
+    <meta name="twitter:url" content="https://example.com/page.html" />
+    <meta name="twitter:title" content="Content Title" />
+    <meta
+      name="twitter:description"
+      content="Content description less than 200 characters"
+    />
+    <meta name="twitter:image" content="https://example.com/image.jpg" />
+
+    <!-- 
+      * Standard favicon
+      ? <link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico">
+      * Recommended favicon format
+      ? <link rel="icon" type="image/png" href="https://example.com/favicon.png">
+      
+      * Apple Touch Icon (at least 200x200px)
+      ? <link rel="apple-touch-icon" href="/custom-icon.png">
+      * To run the web application in full-screen 
+      ? <meta name="apple-mobile-web-app-capable" content="yes">
+      * Status Bar Style (see Supported Meta Tags below for available values) 
+      * Has no effect unless you have the previous meta tag
+      ? <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    -->
     <link rel="icon" type="image/svg+xml" href="/storyfire.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+
+    <!-- 
+      * Alternate language: Low The language tag of your website is specified and related to the language of the current page.
+      ? <link rel="alternate" href="https://es.example.com/" hreflang="es">
+      * x-default: Low The language tag of your website for international landing pages.
+      ? <link rel="alternate" href="https://example.com/" hreflang="x-default" />
+    -->
+
+    <!--* Document Title -->
+    <title>Story Telling About Nothing</title>
   </head>
   <body>
+    <!--* This Message Show in Webpage when Browser JS Disable -->
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+
+    <!--* Create Root -->
     <div id="root"></div>
+
+    <!--* Root Main file -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
