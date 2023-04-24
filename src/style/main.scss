@@ -1,0 +1,14 @@
+/* 
+  NOTE: Basic Style
+  ! @use "base";
+*/
+
+/*
+ NOTE: Normalize Style 
+ ! @use "vendors/normalize";
+ */
+
+/* NOTE: Tailwind Dependencies */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
