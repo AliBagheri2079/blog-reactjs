@@ -14,8 +14,7 @@ dist
 node_modules
 
 # config files
-vite.config.js
-jest.config.js
+*.config.js
 
 # type declaration files
 *.d.js
