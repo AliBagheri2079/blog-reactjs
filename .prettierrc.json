@@ -12,5 +12,8 @@
   "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
   "quoteProps": "as-needed",
-  "semi": true
+  "semi": true,
+  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
