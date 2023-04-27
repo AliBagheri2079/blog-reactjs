@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "slussen-stencil-semibold-trial";
+  src: url("Slussen-Stencil-Semibold-TRIAL.eot");
+  src: url("Slussen-Stencil-Semibold-TRIAL.eot?#iefix")
+      format("embedded-opentype"),
+    url("Slussen-Stencil-Semibold-TRIAL.woff2") format("woff2"),
+    url("Slussen-Stencil-Semibold-TRIAL.woff") format("woff"),
+    url("Slussen-Stencil-Semibold-TRIAL.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "slussen-stencil-trial";
+  src: url("Slussen-Stencil-Regular-TRIAL.eot");
+  src: url("Slussen-Stencil-Regular-TRIAL.eot?#iefix")
+      format("embedded-opentype"),
+    url("Slussen-Stencil-Regular-TRIAL.woff2") format("woff2"),
+    url("Slussen-Stencil-Regular-TRIAL.woff") format("woff"),
+    url("Slussen-Stencil-Regular-TRIAL.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

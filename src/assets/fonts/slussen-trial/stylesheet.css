@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "slussen-semibold-trial";
+  src: url("Slussen-Semibold.eot");
+  src: url("Slussen-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("Slussen-Semibold.woff2") format("woff2"),
+    url("Slussen-Semibold.woff") format("woff"),
+    url("Slussen-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "slussen-trial";
+  src: url("Slussen-Regular.eot");
+  src: url("Slussen-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Slussen-Regular.woff2") format("woff2"),
+    url("Slussen-Regular.woff") format("woff"),
+    url("Slussen-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
