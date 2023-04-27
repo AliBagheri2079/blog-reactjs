@@ -16,6 +16,8 @@ const rootElement = document.getElementById("root");
   USEFUL: All `Portal`-related components need to have the the main app wrapper element as a containerso that the are in the subtree under the element used in the `important` option of the Tailwind's config.
 
   USEFUL: Change Default MUI FontFamily(Roboto) to `Slussen-Semibold-TRIAL`
+
+  USEFUL: Change to Dark mode
 */
 const theme = createTheme({
   components: {
@@ -32,6 +34,9 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: ["slussen-semibold-trial"].join(","),
+  },
+  palette: {
+    mode: "dark",
   },
 });
 
