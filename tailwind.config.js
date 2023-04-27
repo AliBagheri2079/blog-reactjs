@@ -1,12 +1,28 @@
 /** @type {import('tailwindcss').Config} */
-const withMT = require("@material-tailwind/react/utils/withMT");
-
-module.exports = withMT({
+export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  /* NOTE: This Option Part of Combining Tailwind with MUI */
+  important: "#root",
   theme: {
-    extend: {},
+    extend: {
+      /* NOTE: Add Many Custom Utility Fonts */
+      fontFamily: {
+        "slussen-semibold-trial": ["slussen-semibold-trial", "sans-serif"],
+        "slussen-trial": ["slussen-trial", "sans-serif"],
+        "slussen-stencil-semibold-trial": [
+          "slussen-stencil-semibold-trial",
+          "serif",
+        ],
+        "slussen-stencil-trial": ["slussen-stencil-trial", "serif"],
+      },
+    },
   },
   corePlugins: {
+    /*
+    ! Remove Tailwind CSS's preflight style so it can use the MUI's preflight instead (CssBaseline).
+    ! Remove Tailwind CSS's aspectRatio style so it can use the @tailwindcss/aspect-ratio (Tailwind Plugin).
+    */
+    preflight: false,
     aspectRatio: false,
   },
   plugins: [
@@ -14,4 +30,4 @@ module.exports = withMT({
     require("@tailwindcss/forms"),
     require("@tailwindcss/aspect-ratio"),
   ],
-});
+};
