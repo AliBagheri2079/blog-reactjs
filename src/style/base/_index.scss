@@ -15,3 +15,38 @@ body {
   overflow: hidden;
 }
 */
+
+@layer base {
+  ::selection {
+    @apply bg-lenis text-gray-950;
+  }
+}
+
+/*
+ 
+ @layer base {  
+    *  Note that if you’re using Sass/SCSS, you’ll need to use Sass’ interpolation feature to get this to work:
+    @apply font-bold py-2 px-4 rounded #{!important};
+  
+
+  .card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+  }
+
+  @media screen(sm) {
+  }
+
+  @media (min-width: theme('screens.sm')) {
+    @apply rounded-lg;
+  }
+
+  * Use the @screen directive at the top-level
+  @screen sm {
+    .card {
+      @apply rounded-lg;
+    }
+  }
+ */
