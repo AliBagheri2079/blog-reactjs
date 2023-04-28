@@ -15,6 +15,14 @@ export default {
         ],
         "slussen-stencil-trial": ["slussen-stencil-trial", "serif"],
       },
+      /* NOTE: Add Many Custom Utility Colors */
+      colors: {
+        lenis: {
+          // light: "",
+          DEFAULT: "#ff98a2",
+          // dark: "",
+        },
+      },
     },
   },
   corePlugins: {
