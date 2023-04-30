@@ -33,10 +33,18 @@ const theme = createTheme({
     },
   },
   typography: {
+    //TODO: Change font family to other
     fontFamily: ["slussen-semibold-trial"].join(","),
   },
   palette: {
     mode: "dark",
+    primary: {
+      //TODO: Lenis pink color
+      // light: '#ffa726',
+      main: "#ff98a2",
+      // dark: '#ef6c00',
+      // contrastText: 'rgba(0, 0, 0, 0.87)',
+    },
   },
 });
 
