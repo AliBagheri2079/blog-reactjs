@@ -36,14 +36,12 @@ const NasaParticle = () => {
   }, []);
 
   return (
-    <>
-      <Particles
-        id="nasa-tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={nasaParticleData}
-      />
-    </>
+    <Particles
+      id="nasa-tsparticles"
+      init={particlesInit}
+      loaded={particlesLoaded}
+      options={nasaParticleData}
+    />
   );
 };
 export default NasaParticle;
