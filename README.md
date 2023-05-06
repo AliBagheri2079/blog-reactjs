@@ -3,7 +3,7 @@
 Simple Layout with React with propType, MUI(with Icons), Tailwind, Emotion and Sass.
 and Create other Simple Layout with Material Tailwind and Font Awesome, Hero Icons.
 
-## [Demo Link](https://alibagheri2079.github.io/story-reactjs)
+## [Demo Link](https://alibagheri2079.github.io/blog-reactjs/)
 
 <img
 src="./public/second-screenshot.png"
@@ -40,12 +40,14 @@ Clone the project
 ```bash
   git clone https://github.com/AliBagheri2079/story-reactjs.git
 
+
 ```
 
 Go to the project directory
 
 ```bash
   cd story-reactjs
+
 
 ```
 
@@ -54,12 +56,14 @@ Install dependencies
 ```bash
   yarn install
 
+
 ```
 
 Start the server
 
 ```bash
   yarn run dev
+
 
 ```
 
@@ -69,6 +73,7 @@ To deploy this project run
 
 ```bash
   npm run deploy
+
 
 ```
 
