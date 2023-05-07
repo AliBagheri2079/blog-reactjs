@@ -1,4 +1,4 @@
-# Story React
+# Blog React
 
 Simple Layout with React with propType, MUI(with Icons), Tailwind, Emotion and Sass.
 and Create other Simple Layout with Material Tailwind and Font Awesome, Hero Icons.
@@ -38,7 +38,7 @@ Font Awesome and Hero Icons.
 Clone the project
 
 ```bash
-  git clone https://github.com/AliBagheri2079/story-reactjs.git
+  git clone https://github.com/AliBagheri2079/blog-reactjs.git
 
 
 ```
