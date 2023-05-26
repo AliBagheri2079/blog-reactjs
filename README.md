@@ -1,4 +1,4 @@
-# Blog React
+# Blog React.js
 
 Simple Layout with React with propType, MUI(with Icons), Tailwind, Emotion and Sass.
 and Create other Simple Layout with Material Tailwind and Font Awesome, Hero Icons.
